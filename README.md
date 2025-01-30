@@ -7,3 +7,6 @@ implements personalized Recipe Finder, that retrieves and adapts recipes based o
 
 #### The second notebook
 implements personalized Recipe Finder with a Retrieval-Augmented Generation (RAG) + Dense Passage Retrieval (DPR) pipeline. It leverages DPR encoders to generate embeddings for a dataset of recipes, which are stored in a FAISS index for efficient retrieval. When a user submits a query, the system retrieves the most relevant recipes using FAISS and a DPR-based similarity search. The top-ranked recipes serve as context for a generative model (facebook/bart-large), which refines or adapts the recipe based on the user’s preferences.
+
+#### References
+The dataset of recipes, used in this project, is available at this [link](https://raw.githubusercontent.com/tabatkins/recipe-db/master/db-recipes.json).
