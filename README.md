@@ -11,4 +11,4 @@ implements personalized Recipe Finder with a Retrieval-Augmented Generation (RAG
 #### References
 The dataset of recipes, used in this project, is available at this [link](https://raw.githubusercontent.com/tabatkins/recipe-db/master/db-recipes.json).
 
-#### If you find this repository useful for you, drop it a star :)
+#### If you found this repository helpful, drop it a &#11088; :)!
